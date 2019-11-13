@@ -1,4 +1,8 @@
-# url详细,传递参数给views
+---
+description: 'url详细,传递参数给views'
+---
+
+# 4. url, views
 
 from django.conf.urls import url
 
