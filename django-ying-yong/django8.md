@@ -6,7 +6,7 @@ tags:
 categories: django
 ---
 
-# Django 基础
+# 1. Django 基础
 
 ## 安装
 

@@ -2,7 +2,7 @@
 title: django Rest_Framework
 ---
 
-# Django 序列化
+# 2. Django 序列化
 
 ## 基础知识
 

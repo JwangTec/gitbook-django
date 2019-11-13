@@ -5,7 +5,7 @@ tags: Rest_Framework
 categories: django
 ---
 
-# get/put/post/delete区别
+# 3. get/put/post/delete区别
 
 ## 含义
 
