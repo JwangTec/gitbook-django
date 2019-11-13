@@ -11,7 +11,7 @@
 * [第二章 Drf](django-rest-framwork/README.md)
   * [1. django rest framwork](django-rest-framwork/django1.md)
   * [2. 部署步骤](django-rest-framwork/bu-shu-bu-zhou.md)
-* [第三章 Django应用](django-ying-yong/README.md)
+* [Django应用](django-ying-yong/README.md)
   * [Django 基础](django-ying-yong/django8.md)
   * [Django 序列化](django-ying-yong/django-xu-lie-hua.md)
   * [get/put/post/delete区别](django-ying-yong/django-kuo-zhan.md)

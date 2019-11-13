@@ -1,2 +1,2 @@
-# 第三章 Django应用
+# Django应用
 
