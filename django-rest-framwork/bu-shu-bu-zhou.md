@@ -1,6 +1,8 @@
-# 部署基本要求
-1.通过yum安装python3.5以上 使python程序不和系统本身python冲突(宝塔后台使用了默认
-python)
+# 部署步骤
+
+## 部署基本要求
+
+1.通过yum安装python3.5以上 使python程序不和系统本身python冲突\(宝塔后台使用了默认 python\)
 
 2.安装虚拟环境
 
@@ -10,8 +12,7 @@ python)
 
 5.安装nginx
 
-
-# app服务器部署
+## app服务器部署
 
 1.安装python3
 
@@ -24,37 +25,33 @@ cd Python-3.6.5
 make && make install
 ```
 
-
 2.安装虚拟环境
 
-```
+```text
 cd /opt/mypython3/bin
 
 ./pip3 install virtualenvwrapper
-
 ```
 
 配置虚拟环境
 
-```
+```text
 mkdir ~/Envs
 cd ~/Envs
 virtualenv movie_online -p /opt/mypython3/bin/python3.6
-
 ```
 
 激活虚拟环境
 
-```
+```text
 source ~/Envs/movie_online/bin/activate
-
 ```
 
 3.部署代码
 
 生成ssh公钥
 
-```
+```text
 ssh-keygen
 cat ~/.ssh/id_rsa.pub
 ```
@@ -63,7 +60,7 @@ cat ~/.ssh/id_rsa.pub
 
 建目录 托代码
 
-```
+```text
 mkdir /project
 cd /project
 git clone git@gitee.com:pengmao/MoDuXiXiaAPP.git movie_online
@@ -75,12 +72,13 @@ mkdir /project/movie_online/backend/log/gunicorn
 
 给虚拟环境安装pip 包
 
-```
+```text
 pip install -r /project/movie_online/backend/requirements.txt
 ```
 
 使用自带的python2.6安装supervisord
-```
+
+```text
 deactivate
 
 pip install supervisor
@@ -93,7 +91,8 @@ mkdir /project/supervisor/movie_online_log
 ```
 
 supervisord配置文件
-```
+
+```text
 [program:movie_online]
 command=/root/Envs/movie_online/bin/gunicorn -c gunicorn_conf.py movie_1.wsgi
 directory=/project/movie_online/backend
@@ -103,30 +102,29 @@ autostart=true
 autorestart=true
 stdout_logfile=/project/supervisor/movie_online_log/gunicorn.log
 stderr_logfile=/project/supervisor/movie_online_log/gunicorn.err
-
 ```
 
 supervisord启动命令
 
-```
+```text
 supervisord -c /project/supervisor/supervisor.conf
 supervisorctl -c /project/supervisor/supervisor.conf status 察看supervisor的状态
 supervisorctl -c /project/supervisor/supervisor.conf reload 重新载入 配置文件
 supervisorctl -c supervisor.conf stop 停止
 ```
 
-#### nginx
+### nginx
 
 新建日志文件夹
-```
+
+```text
 mkdir /project/logs
 mkdir /project/logs/movie_online
-
 ```
+
 nginx配置参考
 
-```
-
+```text
         server {
          charset utf-8;
          listen 80;
@@ -149,25 +147,21 @@ nginx配置参考
         error_log /project/logs/movie_online/error.log;
         access_log /project/logs/movie_online/access.log;
         }
-
-
 ```
 
 最后收集静态文件
 
-```
+```text
 cd /project/movie_online/backend
 source ~/Envs/movie_online/bin/activate
 python3.6 manage.py collectstatic
-
 ```
 
-# 资源服务器
+## 资源服务器
 
 搭建nginx dav服务器
 
-```
-
+```text
 wget http://nginx.org/download/nginx-1.12.2.tar.gz
 tar -zxvf nginx-1.12.2.tar.gz
 cd nginx-1.12.2
@@ -180,7 +174,7 @@ dav配置
 
 10.19.96.0/24; 开放内网网段
 
-```
+```text
 server{
         listen 30081;
         location / {
@@ -200,22 +194,17 @@ server{
         error_log  logs/pic_error.log;
         access_log  logs/pic_access.log;
      }
-
 ```
 
 user = 我 or 其他人
 
-
-发帖人(我) 删除权限  对 我的帖子
-看帖子的人(其他人) 没有删除权限 对 我的帖子
-小吧主(其他人) 有删除权限 对 我的帖子
+发帖人\(我\) 删除权限 对 我的帖子 看帖子的人\(其他人\) 没有删除权限 对 我的帖子 小吧主\(其他人\) 有删除权限 对 我的帖子
 
 权限管理系统 --》 第三方
 
+实现的一种 -&gt; guradian
 
-实现的一种 -> guradian
-
-权限管理系统 -> RBAC-> guradian
+权限管理系统 -&gt; RBAC-&gt; guradian
 
 1. 赋予权限
 2. 查看权限
@@ -225,28 +214,14 @@ user = 我 or 其他人
 
 1.用户发帖的时候 使用 guradian
 
-    1.赋予用户删帖权限
-    2.赋予管理员删除权限
-    3.赋予用户修改权限
+```text
+1.赋予用户删帖权限
+2.赋予管理员删除权限
+3.赋予用户修改权限
+```
 
-2. 在查看帖子的时候:
-    去查看一下你有没有删除的权限
+1. 在查看帖子的时候: 去查看一下你有没有删除的权限
+2. 请求删除的时候: 去查看一下你有没有删除的权限
 
-3. 请求删除的时候:
-    去查看一下你有没有删除的权限
-
-
-
-代码:
-    from guardian.shortcuts import assign_perm
-    from guardian.shortcuts import check_perm
-    from guardian.shortcuts import remove_perm
-
-
-
-
-
-
-
-
+代码: from guardian.shortcuts import assign\_perm from guardian.shortcuts import check\_perm from guardian.shortcuts import remove\_perm
 
