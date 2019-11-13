@@ -1,0 +1,1212 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Django 序列化 · gitbook tutorial</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="django扩展.html" />
+    
+    
+    <link rel="prev" href="django8.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    Django基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="django1.html">
+            
+                <a href="django1.html">
+            
+                    
+                    django 环境搭建和命令行使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="django2.html">
+            
+                <a href="django2.html">
+            
+                    
+                    搭建第一个页面知识点讲解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="django3.html">
+            
+                <a href="django3.html">
+            
+                    
+                    views详解
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="django5.html">
+            
+                <a href="django5.html">
+            
+                    
+                    url详细,传递参数给views
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="django6.html">
+            
+                <a href="django6.html">
+            
+                    
+                    csrf攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="django7.html">
+            
+                <a href="django7.html">
+            
+                    
+                    表单
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" >
+            
+                <span>
+            
+                    
+                    Django rest framwork
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../django_rest/django1.html">
+            
+                <a href="../django_rest/django1.html">
+            
+                    
+                    django rest framwork
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../django_rest/部署步骤.html">
+            
+                <a href="../django_rest/部署步骤.html">
+            
+                    
+                    部署步骤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" >
+            
+                <span>
+            
+                    
+                    Django应用
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="django8.html">
+            
+                <a href="django8.html">
+            
+                    
+                    Django 基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.1.2" data-path="django序列化.html">
+            
+                <a href="django序列化.html">
+            
+                    
+                    Django 序列化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="django扩展.html">
+            
+                <a href="django扩展.html">
+            
+                    
+                    get/put/post/delete区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Django 序列化</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x57FA;&#x7840;&#x77E5;&#x8BC6;">&#x57FA;&#x7840;&#x77E5;&#x8BC6;</h2>
+<ol>
+<li><p>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;: </p>
+<p> os &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x662F;&#x7BA1;&#x7406;&#x8BA1;&#x7B97;&#x673A;&#x786C;&#x4EF6;&#x4E0E;&#x8F6F;&#x4EF6;&#x8D44;&#x6E90;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x7A0B;&#x5E8F;&#xFF0C;&#x540C;&#x65F6;&#x4E5F;&#x662F;&#x8BA1;&#x7B97;&#x673A;&#x7CFB;&#x7EDF;&#x7684;&#x5185;&#x6838;&#x4E0E;&#x57FA;&#x77F3;&#x3002;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x9700;&#x8981;&#x5904;&#x7406;&#x5982;&#x7BA1;
+ &#x7406;&#x4E0E;&#x914D;&#x7F6E;&#x5185;&#x5B58;&#x3001;&#x51B3;&#x5B9A;&#x7CFB;&#x7EDF;&#x8D44;&#x6E90;&#x4F9B;&#x9700;&#x7684;&#x4F18;&#x5148;&#x6B21;&#x5E8F;&#x3001;&#x63A7;&#x5236;&#x8F93;&#x5165;&#x8BBE;&#x5907;&#x4E0E;&#x8F93;&#x51FA;&#x8BBE;&#x5907;&#x3001;&#x64CD;&#x4F5C;&#x7F51;&#x7EDC;&#x4E0E;&#x7BA1;&#x7406;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x7B49;&#x57FA;&#x672C;&#x4E8B;&#x52A1;&#x3002;&#x64CD;&#x4F5C;
+ &#x7CFB;&#x7EDF;&#x4E5F;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x8BA9;&#x7528;&#x6237;&#x4E0E;&#x7CFB;&#x7EDF;&#x4EA4;&#x4E92;&#x7684;&#x64CD;&#x4F5C;&#x754C;&#x9762;&#x3002;</p>
+</li>
+<li><p>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E2D;&#x7684;&#x8FDB;&#x7A0B;&#x8C03;&#x5EA6;&#x7B56;&#x7565;&#xFF1A;&#x5148;&#x6765;&#x5148;&#x670D;&#x52A1;&#x8C03;&#x5EA6;&#x7B97;&#x6CD5;  &#x77ED;&#x4F5C;&#x4E1A;(&#x8FDB;&#x7A0B;)&#x4F18;&#x5148;&#x8C03;&#x5EA6;&#x7B97;&#x6CD5;  &#x9AD8;&#x4F18;&#x5148;&#x6743;&#x4F18;&#x5148;&#x8C03;&#x5EA6;&#x7B97;&#x6CD5;  &#x9AD8;&#x54CD;&#x5E94;&#x6BD4;&#x4F18;&#x5148;&#x8C03;&#x5EA6;&#x7B97;&#x6CD5;&#x7B49;</p>
+</li>
+<li><p>&#x5206;&#x65F6;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A; &#x5C06;&#x4E00;&#x4E2A;&#x65F6;&#x95F4;&#x6BB5;&#x5206;&#x6210;&#x591A;&#x6BB5;&#x8FD0;&#x884C;&#x591A;&#x4E2A;&#x7A0B;&#x5E8F;  &#x65F6;&#x5206;&#xFF1A;&#x6309;&#x65F6;&#x95F4;&#x5206;  &#x9891;&#x5206;&#xFF1A;&#x6309;&#x9891;&#x7387;&#x5206;&#x53D1;</p>
+</li>
+<li><p>CPU&#xFF1A;&#x5BF9;&#x6307;&#x4EE4;&#x8FD0;&#x884C;  &#x4E0D;&#x540C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x6267;&#x884C;&#x7684;&#x7A0B;&#x5E8F;&#x4E0D;&#x540C;&#xFF1A;&#x683C;&#x5F0F;&#x4E0D;&#x540C;&#x5176;&#x65E0;&#x6CD5;&#x8BC6;&#x522B;&#xFF0C;&#x89E3;&#x6790;&#x4E0D;&#x51FA;&#x6307;&#x4EE4;  &#x4F8B;&#x5982;&#xFF1A;windows(PE) Linux(tar)</p>
+</li>
+<li><p>&#x7834;&#x89E3;&#x539F;&#x7406;&#xFF1A;&#x8BC6;&#x522B;&#x683C;&#x5F0F;--&#x627E;&#x5BFB;&#x76F8;&#x5173;&#x6307;&#x4EE4;--&#x8FDB;&#x884C;&#x4FEE;&#x6539;</p>
+</li>
+<li><p>os:python &#x4E2D;&#x53EF;&#x4EE5;
+path:&#x73AF;&#x5883;&#x53D8;&#x91CF;  &#x547D;&#x4EE4;&#x884C;&#x8F93;&#x5165;&#x547D;&#x4EE4;&#x65F6;&#xFF0C;&#x4F1A;&#x627E;&#x5BFB;path&#x4E2D;&#x7684; </p>
+</li>
+<li><p>&#x7A0B;&#x5E8F;&#x52A0;&#x8F7D;&#x5230;&#x5185;&#x5B58; </p>
+<p> &#x8FDB;&#x7A0B;&#x5305;&#x62EC;&#xFF1A;&#x6587;&#x672C;&#x6BB5;&#xFF08;&#x6307;&#x4EE4;&#xFF09; data&#xFF08;&#x6570;&#x636E;&#x6BB5; &#x521D;&#x59CB;&#x5316;/&#x672A;&#x521D;&#x59CB;&#x5316;&#xFF09;&#x5806;&#xFF08;&#x53EF;&#x5168;&#x5C40;&#x8BBF;&#x95EE; &#x7C7B;&#x7684;&#x5BF9;&#x8C61;&#xFF09; 
+ &#x6808;&#xFF08;&#x6267;&#x884C;&#x51FD;&#x6570;&#x65F6;&#x4F1A;&#x7ED9;&#x51FD;&#x6570;&#x5206;&#x914D;&#x4E00;&#x4E2A;&#x7A7A;&#x95F4;&lt;&#x7B26;&#x5408;&#x9012;&#x5F52;&gt;&#x51FD;&#x6570;&#x6267;&#x884C;&#x5B8C;&#x6210;&#x540E;,&#x6808;&#x76F8;&#x5173;&#x5185;&#x5B58;&#x9500;&#x6BC1;,&#x6240;&#x4EE5;&#x4E0D;&#x540C;&#x51FD;&#x6570;&#x4E4B;&#x95F4;&#x7684;&#x53D8;&#x91CF;&#x4E0D;&#x53EF;&#x4EE5;&#x76F8;&#x4E92;&#x8BBF;&#x95EE;&#xFF09;</p>
+</li>
+<li><p>&#x5730;&#x5740;&#x5F15;&#x7528;&#xFF1A;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x6307;&#x5411;&#x5730;&#x5740;  python&#x5168;&#x662F;&#x5730;&#x5740;&#x5F15;&#x7528;</p>
+</li>
+</ol>
+<p>&#x503C;&#x5F15;&#x7528;&#xFF1A;</p>
+<p>&#x8FDB;&#x7A0B;&#x7BA1;&#x7406;&#xFF1A;</p>
+<ol>
+<li><p>&#x8FDB;&#x7A0B;&#x521B;&#x5EFA;&#xFF1A;fork()  &#x6BCF;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x90FD;&#x6709;&#x7236;&#x8FDB;&#x7A0B;&#xFF0C;&#x4E0D;&#x4E00;&#x5B9A;&#x6709;&#x5B50;&#x8FDB;&#x7A0B; &#x6811;&#x72B6;&#x7ED3;&#x6784; </p>
+</li>
+<li><p>ps: pid() ppid(&#x7236;&#x8FDB;&#x7A0B;)  []&#xFF1A;&#x5185;&#x6838;&#x8FDB;&#x7A0B;  &#x672A;&#x52A0;&#x62EC;&#x53F7;&#x7684;&#xFF1A;&#x7528;&#x6237;&#x8FDB;&#x7A0B;</p>
+</li>
+</ol>
+<h2 id="django-rest-framework">django REST framework</h2>
+<h3 id="&#x524D;&#x671F;&#x77E5;&#x8BC6;">&#x524D;&#x671F;&#x77E5;&#x8BC6;</h3>
+<p>api&#x63A5;&#x53E3;&#x5F00;&#x53D1;&#xFF0C;&#x6700;&#x6838;&#x5FC3;&#x6700;&#x5E38;&#x89C1;&#x7684;&#x4E00;&#x4E2A;&#x8FC7;&#x7A0B;&#x5C31;&#x662F;&#x5E8F;&#x5217;&#x5316;&#xFF0C;&#x6240;&#x8C13;&#x5E8F;&#x5217;&#x5316;&#x5C31;&#x662F;&#x628A;&#x6570;&#x636E;&#x8F6C;&#x6362;&#x683C;&#x5F0F;&#xFF0C;&#x5E8F;&#x5217;&#x5316;&#x53EF;&#x4EE5;&#x5206;&#x4E24;&#x4E2A;&#x9636;&#x6BB5;&#xFF1A;</p>
+<p>1.&#x5E8F;&#x5217;&#x5316;&#xFF1A; &#x628A;&#x6211;&#x4EEC;&#x8BC6;&#x522B;&#x7684;&#x6570;&#x636E;&#x8F6C;&#x6362;&#x6210;&#x6307;&#x5B9A;&#x7684;&#x683C;&#x5F0F;&#x63D0;&#x4F9B;&#x7ED9;&#x522B;&#x4EBA;&#x3002;</p>
+<pre><code>&#x4F8B;&#x5982;&#xFF1A;&#x6211;&#x4EEC;&#x5728;django&#x7684;ORM&#x4E2D;&#x83B7;&#x53D6;&#x5230;&#x7684;&#x6570;&#x636E;&#x9ED8;&#x8BA4;&#x662F;&#x6A21;&#x578B;&#x5BF9;&#x8C61;&#xFF0C;&#x4F46;&#x662F;&#x6A21;&#x578B;&#x5BF9;&#x8C61;&#x6570;&#x636E;&#x65E0;&#x6CD5;&#x76F4;&#x63A5;&#x63D0;&#x4F9B;&#x7ED9;&#x524D;&#x7AEF;&#x6216;&#x522B;&#x7684;
+&#x5E73;&#x53F0;&#x4F7F;&#x7528;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x628A;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x5E8F;&#x5217;&#x5316;&#xFF0C;&#x53D8;&#x6210;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;json&#x6570;&#x636E;&#xFF0C;&#x63D0;&#x4F9B;&#x7ED9;&#x522B;&#x4EBA;&#x3002;
+</code></pre><p>2.&#x53CD;&#x5E8F;&#x5217;&#x5316;&#xFF1A;&#x628A;&#x522B;&#x4EBA;&#x63D0;&#x4F9B;&#x7684;&#x6570;&#x636E;&#x8F6C;&#x6362;/&#x8FD8;&#x539F;&#x6210;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x7684;&#x683C;&#x5F0F;&#x3002;</p>
+<pre><code>&#x4F8B;&#x5982;&#xFF1A;&#x524D;&#x7AEF;js&#x63D0;&#x4F9B;&#x8FC7;&#x6765;&#x7684;json&#x6570;&#x636E;&#xFF0C;&#x5BF9;&#x4E8E;python&#x800C;&#x8A00;&#x5C31;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x6362;&#x6210;&#x6A21;&#x578B;&#x7C7B;&#x5BF9;&#x8C61;&#xFF0C;
+&#x8FD9;&#x6837;&#x6211;&#x4EEC;&#x624D;&#x80FD;&#x628A;    &#x6570;&#x636E;&#x4FDD;&#x5B58;&#x5230;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x3002;
+    1.&#x63A5;&#x6536;&#x6570;&#x636E;[&#x53CD;&#x5E8F;&#x5217;&#x5316;]
+    2.&#x64CD;&#x4F5C;&#x6570;&#x636E;
+    3.&#x54CD;&#x5E94;&#x6570;&#x636E;[&#x5E8F;&#x5217;&#x5316;]
+</code></pre><h3 id="&#x57FA;&#x7840;&#x51C6;&#x5907;">&#x57FA;&#x7840;&#x51C6;&#x5907;</h3>
+<p><a href="https://q1mi.github.io/Django-REST-framework-documentation/#django-rest-framework" target="_blank">&#x4E2D;&#x6587;&#x6587;&#x6863;</a>
+(github: <a href="https://github.com/encode/django-rest-framework/tree/master" target="_blank">https://github.com/encode/django-rest-framework/tree/master</a>)</p>
+<ol>
+<li>&#x9700;&#x8981;&#x5B89;&#x88C5;&#x7684;&#x5305;&#xFF1A;</li>
+</ol>
+<pre><code class="lang-python">pip install djangorestframework
+pip install markdown       <span class="hljs-comment"># Markdown support for the browsable API.</span>
+pip install django-filter  <span class="hljs-comment"># Filtering support</span>
+
+&#x6216;&#x8005;&#xFF1A;
+git clone https://github.com/encode/django-rest-framework
+</code></pre>
+<ol>
+<li><p>&#x9879;&#x76EE;&#x76EE;&#x5F55;&#x4E0B;&#xFF1A;settings--app&#x6DFB;&#x52A0;--&apos;rest_framework&apos;</p>
+</li>
+<li><p>&#x6839;urls&#xFF1A;</p>
+</li>
+</ol>
+<pre><code>from django.conf.urls import url
+from django.urls import path, include
+urlpatterns = [
+
+    url(r&apos;^api-auth/&apos;, include(&apos;rest_framework.urls&apos;))  #&#x6DFB;&#x52A0;&#x8BE5;urls
+]
+</code></pre><h3 id="jquertapi">jquert/api</h3>
+<h4 id="jquery">jquery</h4>
+<p>1.&#x521B;&#x5EFA;Model&#x5E76;&#x8FC1;&#x79FB;</p>
+<pre><code>class UserModer(models.Model):
+    username = models.CharField(max_length=200, null=False, blank=False)
+    age = models.IntegerField()
+    gender = models.BooleanField(default=False)
+
+    def to_json(self):
+    return {&quot;username&quot;: self.username, &quot;age&quot;: self.age, &quot;gender&quot;: self.gender}
+</code></pre><p>2.&#x7F16;&#x8F91;views</p>
+<pre><code>&#x8C03;&#x7528;&#x6240;&#x6709;&#x7684;&#x7F51;&#x9875;&#x9875;&#x9762;  &#x4F8B;&#x5982;&#xFF1A;foo/html/index.html/
+
+def index(request, file):
+    return render(request, file)
+</code></pre><p>3.&#x524D;&#x7AEF;&#x7F51;&#x9875; jquery &#x63A5;&#x6536;request&#x4E2D;&#x7684;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x5904;&#x7406;&#x5E76;&#x663E;&#x793A;&#x5728;&#x524D;&#x7AEF;</p>
+<pre><code>head&#x5934;&#x91CC; index.html &#x7F16;&#x5199;&#x7528;&#x6237;&#x4FE1;&#x606F;&#x5C55;&#x793A;&#x8868;&#x5355;&#xFF1A;
+    1.&#x5BFC;&#x5165;jquery:
+        &lt;script src=&quot;https://code.jquery.com/jquery-3.4.1.min.js&quot;&gt;&lt;/script&gt;
+    2.&#x4F7F;&#x7528;&#xFF1A;
+    &lt;script&gt;
+        $(document).ready(function() {
+            $.get(&quot;/foo/api/user/&quot;,
+                function (users) {
+                    users.forEach(function (user) {
+                        // $(&apos;#id_users&apos;).append(user.user);
+                        // $(&apos;#id_users&apos;).append(user.age);
+                       $(&quot;#id_users&quot;).append(&quot;&lt;tr&gt;&lt;td&gt;&quot;+user.username+&quot;&lt;/td&gt;&lt;td&gt;&quot; + 
+                       user.age + &quot;&lt;/td&gt;&lt;/tr&gt;&quot;)
+                    })
+                }
+            )
+        });
+    &lt;/script&gt;
+    &#x9875;&#x9762;...
+    &lt;tbody id = &quot;id_users&quot;&gt;
+        &#x4E0A;&#x9762;&#x8BBE;&#x7F6E;&#x7684;&#x540E;&#x7AEF;&#x5904;&#x7406;&#x5185;&#x5BB9;&#x5C06;&#x663E;&#x793A;&#x5728;&#x8FD9;&#x91CC;
+    &lt;/tbody&gt;
+
+4.urls&#x521B;&#x5EFA;&#xFF1A;&#x5982;api 1&#x6B65;&#x9AA4;
+</code></pre><h4 id="api">api</h4>
+<p>1.urls&#xFF08;&#x8BE5;app&#x4E0B;&#xFF09;&#x8BBE;&#x7F6E;api</p>
+<pre><code>app&#x4E0B;&#x521B;&#x5EFA;urls.py
+from django.urls import path
+from foo import views
+
+urlpatterns = [
+    path(&apos;html/&lt;str:file&gt;&apos;, views.index)
+    path(&apos;api/user/&apos;, views.get_user)
+
+
+
+&#x6839;urls:
+from django.contrib import admin
+from django.urls import path
+from django.conf.urls import url
+from django.urls import path, include
+urlpatterns = [
+    path(&apos;admin/&apos;, admin.site.urls),
+    path(&apos;foo/&apos;, include(&apos;foo.urls&apos;)),
+    url(r&apos;^api-auth/&apos;, include(&apos;rest_framework.urls&apos;))
+]
+</code></pre><p>2.&#x4F7F;&#x7528;api &#x5B9E;&#x73B0;&#x524D;&#x540E;&#x7AEF;&#x5206;&#x79BB;</p>
+<pre><code>&#x524D;&#x7AEF;&#x8C03;&#x7528;&#x5C55;&#x793A;&#x76F8;&#x5173;&#x6570;&#x636E;&#xFF1A;
+
+1 html(user.html) &#x7F16;&#x5199;&#x7528;&#x6237;&#x8F93;&#x5165;&#x8868;&#x5355;:
+&lt;form method=&apos;post&apos;, action=&apos;/foo/api/user/&apos;&gt;
+    username:&lt;input placeholder=&quot;username&quot;, name=&quot;username&quot;&gt;....  #&#x6DFB;&#x52A0;name&#x4EE5;&#x6B64;&#x4E3A;POST&#x6570;&#x636E;&#x7684;&#x540D;&#x79F0;
+    &lt;/form&gt;
+
+2 views:
+    &#x53EA;&#x63A8;&#x9001;&#x6570;&#x636E;&#x5230;&#x524D;&#x7AEF;&#x5C55;&#x793A;&#xFF1A;&#x5730;&#x5740;&#xFF1A;foo/api/user/
+        def get_user(request):
+                users = UserModer.object.all()
+                user_info = [u.to_json() for u in users]
+                return JsonResponse(user_info, safe=False)
+    POST&#x5219;&#x83B7;&#x53D6;&#x524D;&#x7AEF;user.html&#x7684;&#x8868;&#x5355;&#x6570;&#x636E;&#x5E76;&#x4FDD;&#x5B58;(foo/html/user.html)/&#x5426;&#x5219;&#x8FD4;&#x56DE;&#x6570;&#x636E;&#x5230;&#x524D;&#x7AEF;(foo/api/user/)
+        @csrf_exempt
+        def do_user(request):
+            if request.method == &quot;POST&quot;:
+                user = UserModel() #&#x53D6;&#x51FA;Model&#x4E2D;&#x7684;&#x5B57;&#x6BB5;
+                user.username = request.POST[&apos;username&apos;]  #&#x8D4B;&#x503C;&#x7ED9;&#x76F8;&#x5E94;&#x5B57;&#x6BB5;
+                ...
+                user.save()   #&#x4FDD;&#x5B58;&#x5230;&#x6570;&#x636E;&#x5E93;
+                return JsonResponse(user.to_json())  #&#x5C06;&#x6570;&#x636E;&#x53D1;&#x9001;&#x7ED9;&#x524D;&#x7AEF;  &#x5730;&#x5740;&#xFF1A;foo/api/user/
+            else: &#x63A8;&#x9001;&#x6570;&#x636E;&#x5230;&#x524D;&#x7AEF;
+
+
+3 urls(&#x5F53;&#x524D;app&#x4E2D;):
+    path(&apos;api/user/&apos;, views.do_user)  #2&#x63A8;&#x9001;&#x7684;&#x6D88;&#x606F;&#x8FD4;&#x56DE;&#x524D;&#x7AEF;&#x7684;&#x5730;&#x5740;&#x89C4;&#x5219;
+</code></pre><h3 id="serializers-&#x5E8F;&#x5217;&#x5316;&#x5668;">serializers &#x5E8F;&#x5217;&#x5316;&#x5668;</h3>
+<h4 id="&#x539F;&#x7406;">&#x539F;&#x7406;</h4>
+<pre><code>1. &#x5E8F;&#x5217;&#x5316;,&#x5E8F;&#x5217;&#x5316;&#x5668;&#x4F1A;&#x628A;&#x6A21;&#x578B;&#x5BF9;&#x8C61;&#x8F6C;&#x6362;&#x6210;&#x5B57;&#x5178;,&#x7ECF;&#x8FC7;response&#x4EE5;&#x540E;&#x53D8;&#x6210;json&#x5B57;&#x7B26;&#x4E32;
+2. &#x53CD;&#x5E8F;&#x5217;&#x5316;,&#x628A;&#x5BA2;&#x6237;&#x7AEF;&#x53D1;&#x9001;&#x8FC7;&#x6765;&#x7684;&#x6570;&#x636E;,&#x7ECF;&#x8FC7;request&#x4EE5;&#x540E;&#x53D8;&#x6210;&#x5B57;&#x5178;,&#x5E8F;&#x5217;&#x5316;&#x5668;&#x53EF;&#x4EE5;&#x628A;&#x5B57;&#x5178;&#x8F6C;&#x6210;&#x6A21;&#x578B;
+3. &#x53CD;&#x5E8F;&#x5217;&#x5316;,&#x5B8C;&#x6210;&#x6570;&#x636E;&#x6821;&#x9A8C;&#x529F;&#x80FD;
+</code></pre><h4 id="&#x5E38;&#x7528;&#x5B57;&#x6BB5;&#x7C7B;&#x578B;">&#x5E38;&#x7528;&#x5B57;&#x6BB5;&#x7C7B;&#x578B;</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x5B57;  &#x6BB5;  &#x540D;  &#x79F0;</th>
+<th style="text-align:center">&#x5B57;&#x6BB5;&#x6784;&#x9020;&#x65B9;&#x5F0F; serializers.&#x5B57;&#x6BB5;&#x6784;&#x9020;&#x65B9;&#x5F0F;()</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>BooleanField|    BooleanField()
+NullBooleanField    |NullBooleanField()
+CharField    |CharField(max_length=None, min_length=None, allow_blank=False, trim_whitespace=True)
+EmailField|    EmailField(max_length=None, min_length=None, allow_blank=False)
+RegexField    |RegexField(regex, max_length=None, min_length=None, allow_blank=False)
+SlugField    |SlugField(max<em>length=50, min_length=None, allow_blank=False) &#x6B63;&#x5219;&#x5B57;&#x6BB5;&#xFF0C;&#x9A8C;&#x8BC1;&#x6B63;&#x5219;&#x6A21;&#x5F0F; [a-zA-Z0-9</em>-]+
+URLField    |URLField(max_length=200, min_length=None, allow_blank=False)
+UUIDField    |UUIDField(format=&apos;hex_verbose&apos;) format:1) &apos;hex_verbose&apos; &#x5982;&quot;5ce0e9a5-5ffa-654b-cee0-1238041fb31a&quot;2) &apos;hex&apos; &#x5982; &quot;5ce0e9a55ffa654bcee01238041fb31a&quot;3) &apos;int&apos; - &#x5982;: &quot;123456789012312313134124512351145145114&quot;4) &apos;urn&apos; &#x5982;: &quot;urn:uuid:5ce0e9a5-5ffa-654b-cee0-1238041fb31a&quot;
+IPAddressField    |IPAddressField(protocol=&apos;both&apos;, unpack_ipv4=False, **options)
+IntegerField    |IntegerField(max_value=None, min_value=None)
+FloatField    |FloatField(max_value=None, min_value=None)
+DecimalField    |DecimalField(max_digits, decimal_places, coerce_to_string=None, max_value=None, min_value=None)max_digits: &#x6700;&#x591A;&#x4F4D;&#x6570; decimal_palces: &#x5C0F;&#x6570;&#x70B9;&#x4F4D;&#x7F6E; 
+DateTimeField|DateTimeField(format=api_settings.DATETIME_FORMAT, input_formats=None)
+DateField    |DateField(format=api_settings.DATE_FORMAT, input_formats=None)
+TimeField    |TimeField(format=api_settings.TIME_FORMAT, input_formats=None)
+DurationField|    DurationField()
+ChoiceField    |ChoiceField(choices) choices&#x4E0E;Django&#x7684;&#x7528;&#x6CD5;&#x76F8;&#x540C;
+MultipleChoiceField|    MultipleChoiceField(choices)
+FileField    |FileField(max_length=None, allow_empty_file=False, use_url=UPLOADED_FILES_USE_URL)
+ImageField|    ImageField(max_length=None, allow_empty_file=False, use_url=UPLOADED_FILES_USE_URL)
+ListField    |ListField(child=, min_length=None, max_length=None)
+DictField    |DictField(child=)</p>
+<h4 id="&#x9009;&#x9879;&#x53C2;&#x6570;">&#x9009;&#x9879;&#x53C2;&#x6570;</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th style="text-align:center">&#x4F5C;&#x7528;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>max_length|    &#x6700;&#x5927;&#x957F;&#x5EA6;
+min_length|    &#x6700;&#x5C0F;&#x957F;&#x5EA6;
+allow_blank|    &#x662F;&#x5426;&#x5141;&#x8BB8;&#x4E3A;&#x7A7A;
+trim_whitespace|    &#x662F;&#x5426;&#x622A;&#x65AD;&#x7A7A;&#x767D;&#x5B57;&#x7B26;
+max_value    |&#x6700;&#x5927;&#x6570;&#x503C;
+min_value    |&#x6700;&#x5C0F;&#x6570;&#x503C;</p>
+<h4 id="&#x901A;&#x7528;&#x53C2;&#x6570;">&#x901A;&#x7528;&#x53C2;&#x6570;</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th style="text-align:center">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<p>read_only    |&#x8868;&#x660E;&#x8BE5;&#x5B57;&#x6BB5;&#x4EC5;&#x7528;&#x4E8E;&#x5E8F;&#x5217;&#x5316;&#x8F93;&#x51FA;&#xFF0C;&#x9ED8;&#x8BA4;False
+write_only|    &#x8868;&#x660E;&#x8BE5;&#x5B57;&#x6BB5;&#x4EC5;&#x7528;&#x4E8E;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x8F93;&#x5165;&#xFF0C;&#x9ED8;&#x8BA4;False
+required    |&#x8868;&#x660E;&#x8BE5;&#x5B57;&#x6BB5;&#x5728;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x65F6;&#x5FC5;&#x987B;&#x8F93;&#x5165;&#xFF0C;&#x9ED8;&#x8BA4;True
+default    |&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x65F6;&#x4F7F;&#x7528;&#x7684;&#x9ED8;&#x8BA4;&#x503C;
+allow_null|    &#x8868;&#x660E;&#x8BE5;&#x5B57;&#x6BB5;&#x662F;&#x5426;&#x5141;&#x8BB8;&#x4F20;&#x5165;None&#xFF0C;&#x9ED8;&#x8BA4;False
+validators|    &#x8BE5;&#x5B57;&#x6BB5;&#x4F7F;&#x7528;&#x7684;&#x9A8C;&#x8BC1;&#x5668;
+error_messages|    &#x5305;&#x542B;&#x9519;&#x8BEF;&#x7F16;&#x53F7;&#x4E0E;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#x7684;&#x5B57;&#x5178;
+label    |&#x7528;&#x4E8E;HTML&#x5C55;&#x793A;API&#x9875;&#x9762;&#x65F6;&#xFF0C;&#x663E;&#x793A;&#x7684;&#x5B57;&#x6BB5;&#x540D;&#x79F0;
+help_text|    &#x7528;&#x4E8E;HTML&#x5C55;&#x793A;API&#x9875;&#x9762;&#x65F6;&#xFF0C;&#x663E;&#x793A;&#x7684;&#x5B57;&#x6BB5;&#x5E2E;&#x52A9;&#x63D0;&#x793A;&#x4FE1;&#x606F;</p>
+<h4 id="&#x521B;&#x5EFA;&#x5E8F;&#x5217;&#x5316;&#x7C7B;&#xFF08;&#x7528;&#x6237;&#x4E3A;&#x4F8B;&#xFF09;">&#x521B;&#x5EFA;&#x5E8F;&#x5217;&#x5316;&#x7C7B;&#xFF08;&#x7528;&#x6237;&#x4E3A;&#x4F8B;&#xFF09;</h4>
+<p>1.&#x65B0;&#x5EFA;&#x6587;&#x4EF6;&#x5E76;&#x5BFC;&#x5165;&#x5E8F;&#x5217;&#x5316;&#x5668; serializers.py  (&#x5F53;&#x524D;app&#x4E0B;)   &#x7528;&#x4E8E;&#x5E8F;&#x5217;&#x5316;&#x4E0E;&#x53CD;&#x5E8F;&#x5217;&#x5316;</p>
+<pre><code>## serializers.py
+from rest_framework import serializers
+
+class UserSerializer(serializers.Serializer):
+    username = serializers.CharFiled(requird = True, max_length=50)
+    ...  #&#x9700;&#x8981;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x8F6C;&#x6362;&#x7684;&#x5B57;&#x6BB5;&#x8BBE;,&#x5E76;&#x4FEE;&#x6539;&#x5B57;&#x6BB5;&#x76F8;&#x5E94;&#x7C7B;&#x578B;
+    def create(self, validated_data):  #&#x91CD;&#x5199;create&#x65B9;&#x6CD5; 
+        model = UserModel()
+        model.username = validated_data[&apos;username&apos;]
+        ...
+        model.save()
+        return model 
+
+model &#xFF1A;&#x6307;&#x660E;&#x8BE5;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x5904;&#x7406;&#x7684;&#x6570;&#x636E;&#x5B57;&#x6BB5;&#x4ECE;&#x6A21;&#x578B;&#x7C7B;Student&#x53C2;&#x8003;&#x751F;&#x6210;
+fields &#xFF1A;&#x6307;&#x660E;&#x8BE5;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x5305;&#x542B;&#x6A21;&#x578B;&#x7C7B;&#x4E2D;&#x7684;&#x54EA;&#x4E9B;&#x5B57;&#x6BB5;&#xFF0C;__all__&#x6307;&#x660E;&#x5305;&#x542B;&#x6240;&#x6709;&#x5B57;&#x6BB5;
+</code></pre><p>2.views&#xFF1A;&#x83B7;&#x53D6;&#x524D;&#x7AEF;&#x8868;&#x5355;&#x6570;&#x636E;&#x5E76;&#x8FD4;&#x56DE;&#x6570;&#x636E;&#x7ED9;&#x524D;&#x7AEF; &#x521B;&#x5EFA;serializer&#x5BF9;&#x8C61;</p>
+<p>&#x5B9A;&#x4E49;&#x597D;Serializer&#x7C7B;&#x540E;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;Serializer&#x5BF9;&#x8C61;&#x4E86;&#x3002;</p>
+<p>Serializer&#x7684;&#x6784;&#x9020;&#x65B9;&#x6CD5;&#x4E3A;&#xFF1A;</p>
+<pre><code>Serializer(instance=None, data=empty, **kwarg)
+</code></pre><p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<p>1&#xFF09;&#x7528;&#x4E8E;&#x5E8F;&#x5217;&#x5316;&#x65F6;&#xFF0C;&#x5C06;&#x6A21;&#x578B;&#x7C7B;&#x5BF9;&#x8C61;&#x4F20;&#x5165;instance&#x53C2;&#x6570;</p>
+<p>2&#xFF09;&#x7528;&#x4E8E;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x65F6;&#xFF0C;&#x5C06;&#x8981;&#x88AB;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x7684;&#x6570;&#x636E;&#x4F20;&#x5165;data&#x53C2;&#x6570;</p>
+<p>3&#xFF09;&#x9664;&#x4E86;instance&#x548C;data&#x53C2;&#x6570;&#x5916;&#xFF0C;&#x5728;&#x6784;&#x9020;Serializer&#x5BF9;&#x8C61;&#x65F6;&#xFF0C;&#x8FD8;&#x53EF;&#x901A;&#x8FC7;context&#x53C2;&#x6570;&#x989D;&#x5916;&#x6DFB;&#x52A0;&#x6570;&#x636E;&#xFF0C;&#x5982;</p>
+<pre><code>serializer = StudentSerializer(instance, context={&apos;request&apos;: request})
+</code></pre><p>&#x901A;&#x8FC7;context&#x53C2;&#x6570;&#x9644;&#x52A0;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;Serializer&#x5BF9;&#x8C61;&#x7684;context&#x5C5E;&#x6027;&#x83B7;&#x53D6;&#x3002;</p>
+<pre><code>1.&#x4F7F;&#x7528;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x7684;&#x65F6;&#x5019;&#x4E00;&#x5B9A;&#x8981;&#x6CE8;&#x610F;&#xFF0C;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x58F0;&#x660E;&#x4E86;&#x4EE5;&#x540E;&#xFF0C;&#x4E0D;&#x4F1A;&#x81EA;&#x52A8;&#x6267;&#x884C;&#xFF0C;&#x9700;&#x8981;&#x6211;&#x4EEC;&#x5728;&#x89C6;&#x56FE;&#x4E2D;&#x8FDB;&#x884C;&#x8C03;&#x7528;&#x624D;&#x53EF;&#x4EE5;&#x3002;
+2.&#x5E8F;&#x5217;&#x5316;&#x5668;&#x65E0;&#x6CD5;&#x76F4;&#x63A5;&#x63A5;&#x6536;&#x6570;&#x636E;&#xFF0C;&#x9700;&#x8981;&#x6211;&#x4EEC;&#x5728;&#x89C6;&#x56FE;&#x4E2D;&#x521B;&#x5EFA;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x5BF9;&#x8C61;&#x65F6;&#x628A;&#x4F7F;&#x7528;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9012;&#x8FC7;&#x6765;&#x3002;
+3.&#x5E8F;&#x5217;&#x5316;&#x5668;&#x7684;&#x5B57;&#x6BB5;&#x58F0;&#x660E;&#x7C7B;&#x4F3C;&#x4E8E;form&#x8868;&#x5355;&#x7CFB;&#x7EDF;&#x3002;
+4.&#x5F00;&#x53D1;restful api&#x65F6;&#xFF0C;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x4F1A;&#x5E2E;&#x6211;&#x4EEC;&#x628A;&#x6A21;&#x578B;&#x6570;&#x636E;&#x8F6C;&#x6362;&#x6210;&#x5B57;&#x5178;.
+5.drf&#x63D0;&#x4F9B;&#x7684;&#x89C6;&#x56FE;&#x4F1A;&#x5E2E;&#x6211;&#x4EEC;&#x628A;&#x5B57;&#x5178;&#x8F6C;&#x6362;&#x6210;json,&#x6216;&#x8005;&#x628A;&#x5BA2;&#x6237;&#x7AEF;&#x53D1;&#x9001;&#x8FC7;&#x6765;&#x7684;&#x6570;&#x636E;&#x8F6C;&#x6362;&#x5B57;&#x5178;.
+</code></pre><p>&#x5E8F;&#x5217;&#x5316;&#x5668;&#x7684;&#x4F7F;&#x7528;&#x5206;&#x4E24;&#x4E2A;&#x9636;&#x6BB5;&#xFF1A;</p>
+<p>1.&#x5728;&#x5BA2;&#x6237;&#x7AEF;&#x8BF7;&#x6C42;&#x65F6;&#xFF0C;&#x4F7F;&#x7528;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x53EF;&#x4EE5;&#x5B8C;&#x6210;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x3002;</p>
+<p>2.&#x5728;&#x670D;&#x52A1;&#x5668;&#x54CD;&#x5E94;&#x65F6;&#xFF0C;&#x4F7F;&#x7528;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x53EF;&#x4EE5;&#x5B8C;&#x6210;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5E8F;&#x5217;&#x5316;&#x3002;</p>
+<pre><code>def do_user(request):
+    if request.method == &quot;POST&quot;:  #foo/api/user/1   
+        serializer = UserSerializer(data=request.POST)   
+            #&#x5305;&#x62EC;&#xFF1A;serializer&#x7684;__init__&#x4E2D;&#x6709;instance,data&#xFF0C;many&#x7B49;&#x5B57;&#x6BB5;&#xFF0C;
+        if not serializer.is_valid():  
+            return JsonResponse(serializer.errors)
+        serializer.save(force_insert=True)
+        return JsonResponse(serializer.validated_data)  
+
+        #serializer&#x4E2D;&#x4F1A;&#x5C06;data&#x4E2D;&#x7684;&#x6570;&#x636E;&#x8D4B;&#x503C;&#x7ED9;validated_data
+
+    else:
+            users = UserModer.object.all()
+            user_info = [u.to_json() for u in users]
+            return JsonResponse(user_info, safe=False)
+</code></pre><p>3.app_name/urls.py</p>
+<pre><code>path(&apos;api/user/&lt;int:id&gt;&apos;, views.do_user)
+</code></pre><p>3.serializers &#x5E8F;&#x5217;&#x5316;/&#x53CD;&#x5E8F;&#x5217;&#x5316;</p>
+<p>&#x8BF4;&#x660E;&#xFF1A;</p>
+<pre><code>&#x4F7F;&#x7528;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x8FDB;&#x884C;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#x540E;&#xFF0C;&#x624D;&#x80FD;&#x83B7;&#x53D6;&#x9A8C;&#x8BC1;&#x6210;&#x529F;&#x7684;&#x6570;&#x636E;&#x6216;&#x4FDD;&#x5B58;&#x6210;&#x6A21;&#x578B;&#x7C7B;&#x5BF9;&#x8C61;&#x3002;
+
+&#x5728;&#x83B7;&#x53D6;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x7684;&#x6570;&#x636E;&#x524D;&#xFF0C;&#x5FC5;&#x987B;&#x8C03;&#x7528;is_valid()&#x65B9;&#x6CD5;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#xFF0C;&#x9A8C;&#x8BC1;&#x6210;&#x529F;&#x8FD4;&#x56DE;True&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;False&#x3002;
+
+&#x9A8C;&#x8BC1;&#x5931;&#x8D25;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x5BF9;&#x8C61;&#x7684;errors&#x5C5E;&#x6027;&#x83B7;&#x53D6;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#xFF0C;&#x8FD4;&#x56DE;&#x5B57;&#x5178;&#xFF0C;&#x5305;&#x542B;&#x4E86;&#x5B57;&#x6BB5;&#x548C;&#x5B57;&#x6BB5;&#x7684;&#x9519;&#x8BEF;&#x3002;
+&#x5982;&#x679C;&#x662F;&#x975E;&#x5B57;&#x6BB5;&#x9519;&#x8BEF;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4FEE;&#x6539;REST framework&#x914D;&#x7F6E;&#x4E2D;&#x7684;NON_FIELD_ERRORS_KEY&#x6765;&#x63A7;&#x5236;&#x9519;&#x8BEF;&#x5B57;&#x5178;&#x4E2D;&#x7684;&#x952E;&#x540D;&#x3002;
+
+&#x9A8C;&#x8BC1;&#x6210;&#x529F;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x5BF9;&#x8C61;&#x7684;validated_data&#x5C5E;&#x6027;&#x83B7;&#x53D6;&#x6570;&#x636E;&#x3002;
+
+&#x5728;&#x5B9A;&#x4E49;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x65F6;&#xFF0C;&#x6307;&#x660E;&#x6BCF;&#x4E2A;&#x5B57;&#x6BB5;&#x7684;&#x5E8F;&#x5217;&#x5316;&#x7C7B;&#x578B;&#x548C;&#x9009;&#x9879;&#x53C2;&#x6570;&#xFF0C;&#x672C;&#x8EAB;&#x5C31;&#x662F;&#x4E00;&#x79CD;&#x9A8C;&#x8BC1;&#x884C;&#x4E3A;&#x3002;
+</code></pre><pre><code>## serializers.py
+class UserSerializer2(serializers.ModelSerializer): #&#x9700;&#x7533;&#x660E;&#x8C03;&#x7528;&#x6A21;&#x578B;&#x4FE1;&#x606F;
+    class Meta:
+        model = UserModel  #model&#x6DFB;&#x52A0;&#x4E0A;to_json  &#x76F4;&#x63A5;&#x7EE7;&#x627F;Model&#x7684;&#x5B57;&#x6BB5;
+        exclude = (&apos;gender&apos;,)  #&#x4E0D;&#x5728;&#x524D;&#x7AEF;&#x5C55;&#x793A;&#x7684;&#x5B57;&#x6BB5;
+
+## views.py
+def do_user(request, id=None):
+    if not id:
+        if request.method == &quot;POST&quot;:  #&#x6839;&#x636E;&#x524D;&#x7AEF;&#x8F93;&#x5165;&#x7684;&#x8D44;&#x6E90;&#x8FDB;&#x884C;&#x4FDD;&#x5B58;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x5E76;&#x8FD4;&#x56DE;&#x7ED9;&#x524D;&#x7AEF;  
+            serializer = UserSerializer(data=request.POST)  #&#x6570;&#x636E;&#x8F6C;&#x6362;&#xFF08;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#xFF09; 
+            if not serializer.is_valid():  
+                return JsonResponse(serializer.errors)  #&#x54CD;&#x5E94;&#x9519;&#x8BEF;
+            serializer.save(force_insert=True)  #&#x5B58;&#x50A8;&#x6570;&#x636E;
+            return JsonResponse(serializer.validated_data)  #&#x54CD;&#x5E94;&#x6570;&#x636E;
+        else:  #&#x88AB;&#x5E8F;&#x5217;&#x5316;&#x7684;&#x662F;&#x5305;&#x542B;&#x591A;&#x6761;&#x6570;&#x636E;&#x7684;&#x67E5;&#x8BE2;&#x96C6;QuerySet&#xFF0C;&#x53EF;&#x901A;&#x8FC7;many=True&#x53C2;&#x6570;&#x8865;&#x5145;&#x8BF4;&#x660E; 
+                users = UserModer.object.all() #&#x83B7;&#x53D6;&#x6570;&#x636E;
+                #&#x4E0D;&#x9700;&#x8981;&#x5728;model&#x4E2D;&#x5B9A;&#x4E49;to_json&#x4F20;&#x8D44;&#x6E90;
+                user_info = UserSerializer2(instance=users, many=True) #&#x8F6C;&#x5316;&#x591A;&#x4E2A;&#x6570;&#x636E;&#xFF0C;&#x9700;&#x8981;&#x52A0;&#x4E0A;many=True
+                #user_info.data &#xFF1A;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x8F6C;&#x5316;&#x540E;&#x7684;&#x6570;&#x636E;&#xFF08;&#x5B57;&#x5178;&#xFF09; 
+                return JsonResponse(user_info.data, safe=False)
+                #&#x54CD;&#x5E94;&#x6570;&#x636E;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;
+                #&#x8FD4;&#x56DE;&#x7684;Json&#x6570;&#x636E;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x5217;&#x8868;&#xFF0C;&#x9700;&#x8981;&#x58F0;&#x660E;safe=False
+    else:  
+        if request.method == &quot;GET&quot;&#xFF1A;  
+            user = UserModel.object.get(pk = id)  #&#x83B7;&#x53D6;&#x6570;&#x636E;
+            user_info = UserSerializer2(instance=user) #&#x6570;&#x636E;&#x8F6C;&#x6362;&#xFF08;&#x5E8F;&#x5217;&#x5316;&#xFF09;
+            return JsonResponse(user_info.data)   #&#x54CD;&#x5E94;&#x6570;&#x636E;
+</code></pre><h3 id="modelserializer">ModelSerializer</h3>
+<p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x4F7F;&#x7528;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x5BF9;&#x5E94;&#x7684;&#x662F;Django&#x7684;&#x6A21;&#x578B;&#x7C7B;&#xFF0C;DRF&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;ModelSerializer&#x6A21;&#x578B;&#x7C7B;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x6765;&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x5FEB;&#x901F;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;Serializer&#x7C7B;&#x3002;</p>
+<p>ModelSerializer&#x4E0E;&#x5E38;&#x89C4;&#x7684;Serializer&#x76F8;&#x540C;&#xFF0C;&#x4F46;&#x63D0;&#x4F9B;&#x4E86;&#xFF1A;</p>
+<pre><code>&#x57FA;&#x4E8E;&#x6A21;&#x578B;&#x7C7B;&#x81EA;&#x52A8;&#x751F;&#x6210;&#x4E00;&#x7CFB;&#x5217;&#x5B57;&#x6BB5;
+&#x57FA;&#x4E8E;&#x6A21;&#x578B;&#x7C7B;&#x81EA;&#x52A8;&#x4E3A;Serializer&#x751F;&#x6210;validators&#xFF0C;&#x6BD4;&#x5982;unique_together
+&#x5305;&#x542B;&#x9ED8;&#x8BA4;&#x7684;create()&#x548C;update()&#x7684;&#x5B9E;&#x73B0;
+</code></pre><h4 id="&#x5B9A;&#x4E49;">&#x5B9A;&#x4E49;</h4>
+<pre><code>class BookSerializer(serializers.ModelSerializer):
+    &quot;&quot;&quot;&#x56FE;&#x4E66;&#x6570;&#x636E;&#x5E8F;&#x5217;&#x5316;&#x5668;&quot;&quot;&quot;
+    class Meta:
+        model = Book
+        fields = &apos;__all__&apos;
+
+model &#x6307;&#x660E;&#x53C2;&#x7167;&#x54EA;&#x4E2A;&#x6A21;&#x578B;&#x7C7B;
+fields &#x6307;&#x660E;&#x4E3A;&#x6A21;&#x578B;&#x7C7B;&#x7684;&#x54EA;&#x4E9B;&#x5B57;&#x6BB5;&#x751F;&#x6210;
+
+&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;python manage.py shell&#x4E2D;&#x67E5;&#x770B;&#x81EA;&#x52A8;&#x751F;&#x6210;&#x7684;BookSerializer&#x7684;&#x5177;&#x4F53;&#x5B9E;&#x73B0;
+&gt;&gt;&gt; from booktest.serializers import BookSerializer
+&gt;&gt;&gt; serializer = BookSerializer()
+&gt;&gt;&gt; serializer
+</code></pre><h4 id="&#x6307;&#x5B9A;&#x5B57;&#x6BB5;">&#x6307;&#x5B9A;&#x5B57;&#x6BB5;</h4>
+<p>1) &#x4F7F;&#x7528;fields&#x6765;&#x660E;&#x786E;&#x5B57;&#x6BB5;&#xFF0C;<strong>all</strong>&#x8868;&#x540D;&#x5305;&#x542B;&#x6240;&#x6709;&#x5B57;&#x6BB5;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x5199;&#x660E;&#x5177;&#x4F53;&#x54EA;&#x4E9B;&#x5B57;&#x6BB5;</p>
+<p>2) &#x4F7F;&#x7528;exclude&#x53EF;&#x4EE5;&#x660E;&#x786E;&#x6392;&#x9664;&#x6389;&#x54EA;&#x4E9B;&#x5B57;&#x6BB5;</p>
+<p>3) fields &#x6307;&#x660E;&#x4E3A;&#x6A21;&#x578B;&#x7C7B;&#x7684;&#x54EA;&#x4E9B;&#x5B57;&#x6BB5;&#x751F;&#x6210;</p>
+<p>4) &#x6307;&#x660E;&#x53EA;&#x8BFB;&#x5B57;&#x6BB5;  &#x53EF;&#x4EE5;&#x901A;&#x8FC7;read_only_fields&#x6307;&#x660E;&#x53EA;&#x8BFB;&#x5B57;&#x6BB5;&#xFF0C;&#x5373;&#x4EC5;&#x7528;&#x4E8E;&#x5E8F;&#x5217;&#x5316;&#x8F93;&#x51FA;&#x7684;&#x5B57;&#x6BB5;</p>
+<h4 id="&#x6DFB;&#x52A0;&#x989D;&#x5916;&#x53C2;&#x6570;">&#x6DFB;&#x52A0;&#x989D;&#x5916;&#x53C2;&#x6570;</h4>
+<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;extra_kwargs&#x53C2;&#x6570;&#x4E3A;ModelSerializer&#x6DFB;&#x52A0;&#x6216;&#x4FEE;&#x6539;&#x539F;&#x6709;&#x7684;&#x9009;&#x9879;&#x53C2;&#x6570;</p>
+<pre><code>class BookSerializer(serializers.ModelSerializer):
+    &quot;&quot;&quot;&#x56FE;&#x4E66;&#x5E8F;&#x5217;&#x5316;&#x5668;&quot;&quot;&quot;
+    class Meta:
+        model = Book
+        fields = (&apos;id&apos;, &apos;title&apos;, &apos;pub_date&apos;, &apos;read&apos;, &apos;comment&apos;)
+        extra_kwargs = {
+            &apos;read&apos;: {&apos;min_value&apos;: 0, &apos;required&apos;: True},
+            &apos;comment&apos;: {&apos;min_value&apos;: 0, &apos;required&apos;: True},
+        }
+</code></pre><h3 id="&#x5E8F;&#x5217;&#x5316;&#x8FC7;&#x7A0B;&#xFF08;lesson&#x4E3A;&#x4F8B;&#xFF09;">&#x5E8F;&#x5217;&#x5316;&#x8FC7;&#x7A0B;&#xFF08;lesson&#x4E3A;&#x4F8B;&#xFF09;</h3>
+<h4 id="model&#x521B;&#x5EFA;">Model&#x521B;&#x5EFA;</h4>
+<pre><code>#models.py
+class LessonModel(models.Model):
+    subject = models.CharField(max_length=255)
+    student = models.ForeignKey(&apos;UserModer&apos;, on_delete=models.CASCADE)
+</code></pre><h4 id="&#x5E8F;&#x5217;&#x5316;&#x7C7B;">&#x5E8F;&#x5217;&#x5316;&#x7C7B;</h4>
+<pre><code>#serializer.py
+class LessonSerializer(serializers.ModelSerializer):
+    #&#x5E8F;&#x5217;&#x5316;&#x8C03;&#x7528;&#x4E0A;&#x9762;&#x5B66;&#x751F;&#x4FE1;&#x606F;&#xFF08;&#x5BF9;student&#x5B57;&#x6BB5;&#x8FDB;&#x884C;&#x5904;&#x7406;&#x540E;&#x8FD4;&#x56DE;&#xFF09;
+    student = serializer.SerializerMethodField()
+
+    def get_student(self, instance):
+        #instance.student &#x4E3A;&#x83B7;&#x53D6;&#x6570;&#x636E;
+        u = UserSerializer2(instance=instance.student) #&#x6570;&#x636E;&#x8F6C;&#x5316;
+        return u.data #&#x8FD4;&#x56DE;&#x8F6C;&#x5316;&#x6570;&#x636E;  &#x4F7F;&#x5F97;&#x8BE5;&#x5E8F;&#x5217;&#x5316;&#x53EF;&#x4EE5;&#x8F6C;&#x5316;&#x5B66;&#x751F;&#x4FE1;&#x606F;&#x6570;&#x636E;&#x5E76;&#x4E00;&#x8D77;&#x53D1;&#x7ED9;&#x524D;&#x7AEF;
+
+    #&#x5B9A;&#x4E49;&#x4EFB;&#x610F;&#x9700;&#x8981;&#x7684;&#x5B57;&#x6BB5;
+    count = serializer.SerializerMethodField()
+
+    def get_count(self, instance):
+        return 12
+
+    class Meta:
+        model = LessonModel  #&#x58F0;&#x660E;model  (instance&#x4E2D;&#x5305;&#x62EC;&#x7684;&#x5B57;&#x6BB5;)
+        fields = (&quot;subject&quot;, &quot;student&quot;, &apos;count&apos;)  #&#x6307;&#x660E;&#x5E8F;&#x5217;&#x5316;model&#x4E2D;&#x7684;&#x5B57;&#x6BB5;&#x4E0E;exclude&#x76F8;&#x53CD;
+</code></pre><h4 id="&#x8F6C;&#x5316;&#x4E3A;&#x5E8F;&#x5217;&#x5316;&#x5BF9;&#x8C61;">&#x8F6C;&#x5316;&#x4E3A;&#x5E8F;&#x5217;&#x5316;&#x5BF9;&#x8C61;</h4>
+<pre><code>#views.py
+def do_lesson(request, id=None):
+    if not id:
+        lesson = LessonModel.object.all() #&#x83B7;&#x53D6;&#x6570;&#x636E;
+        json_lesson = LessonSerializer(instance=lesson, many=True)  #&#x6570;&#x636E;&#x8F6C;&#x5316;&#xFF08;&#x5E8F;&#x5217;&#x5316;&#xFF09;
+        return JsonResponse(json_lesson.data, safe=False)  
+        #&#x54CD;&#x5E94;&#x6570;&#x636E;(subject,student,count&#x7684;&#x6240;&#x6709;&#x5E8F;&#x5217;&#x5316;&#x8FD4;&#x56DE;&#x7684;&#x6570;&#x636E;)
+</code></pre><h3 id="&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x8FC7;&#x7A0B;">&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x8FC7;&#x7A0B;</h3>
+<h4 id="&#x6570;&#x636E;&#x9A8C;&#x8BC1;&#x4EE5;&#x56FE;&#x4E66;&#x4E3A;&#x4F8B;">&#x6570;&#x636E;&#x9A8C;&#x8BC1;(&#x4EE5;&#x56FE;&#x4E66;&#x4E3A;&#x4F8B;)</h4>
+<p>&#x4F7F;&#x7528;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x8FDB;&#x884C;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#x540E;&#xFF0C;&#x624D;&#x80FD;&#x83B7;&#x53D6;&#x9A8C;&#x8BC1;&#x6210;&#x529F;&#x7684;&#x6570;&#x636E;&#x6216;&#x4FDD;&#x5B58;&#x6210;&#x6A21;&#x578B;&#x7C7B;&#x5BF9;&#x8C61;&#x3002;</p>
+<p>&#x5728;&#x83B7;&#x53D6;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x7684;&#x6570;&#x636E;&#x524D;&#xFF0C;&#x5FC5;&#x987B;&#x8C03;&#x7528;is_valid()&#x65B9;&#x6CD5;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#xFF0C;&#x9A8C;&#x8BC1;&#x6210;&#x529F;&#x8FD4;&#x56DE;True&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;False&#x3002;</p>
+<p>&#x9A8C;&#x8BC1;&#x5931;&#x8D25;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x5BF9;&#x8C61;&#x7684;errors&#x5C5E;&#x6027;&#x83B7;&#x53D6;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#xFF0C;&#x8FD4;&#x56DE;&#x5B57;&#x5178;&#xFF0C;&#x5305;&#x542B;&#x4E86;&#x5B57;&#x6BB5;&#x548C;&#x5B57;&#x6BB5;&#x7684;&#x9519;&#x8BEF;&#x3002;&#x5982;&#x679C;&#x662F;&#x975E;&#x5B57;&#x6BB5;&#x9519;&#x8BEF;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4FEE;&#x6539;REST framework&#x914D;&#x7F6E;&#x4E2D;&#x7684;NON_FIELD_ERRORS_KEY&#x6765;&#x63A7;&#x5236;&#x9519;&#x8BEF;&#x5B57;&#x5178;&#x4E2D;&#x7684;&#x952E;&#x540D;&#x3002;</p>
+<p>&#x9A8C;&#x8BC1;&#x6210;&#x529F;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x5BF9;&#x8C61;&#x7684;validated_data&#x5C5E;&#x6027;&#x83B7;&#x53D6;&#x6570;&#x636E;&#x3002;</p>
+<p>&#x5728;&#x5B9A;&#x4E49;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x65F6;&#xFF0C;&#x6307;&#x660E;&#x6BCF;&#x4E2A;&#x5B57;&#x6BB5;&#x7684;&#x5E8F;&#x5217;&#x5316;&#x7C7B;&#x578B;&#x548C;&#x9009;&#x9879;&#x53C2;&#x6570;&#xFF0C;&#x672C;&#x8EAB;&#x5C31;&#x662F;&#x4E00;&#x79CD;&#x9A8C;&#x8BC1;&#x884C;&#x4E3A;&#x3002;</p>
+<pre><code>&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x5B50;&#x5E94;&#x7528;books&#x3002;
+
+data = {&apos;title&apos;: &apos;python&apos;}  #&#x4F20;&#x5165;&#x7684;&#x6570;&#x636E;
+serializer = BookSerializer(data=data)  #&#x5E8F;&#x5217;&#x5316;
+serializer.is_valid()  # True   &#x9A8C;&#x8BC1;&#x7ED3;&#x679C;&#x8FD4;&#x56DE;&#x503C; &#xFF08;&#x5B57;&#x6BB5;&#x7684;&#x9650;&#x5236;&#x82E5;&#x4E0D;&#x6EE1;&#x8DB3;&#x76F4;&#x63A5;False&#xFF09;
+serializer.errors  # {}  &#x9519;&#x8BEF;&#x4FE1;&#x606F;
+serializer.validated_data  #  OrderedDict([(&apos;btitle&apos;, &apos;python&apos;)])
+</code></pre><pre><code>is_valid()&#x65B9;&#x6CD5;&#x8FD8;&#x53EF;&#x4EE5;&#x5728;&#x9A8C;&#x8BC1;&#x5931;&#x8D25;&#x65F6;&#x629B;&#x51FA;&#x5F02;&#x5E38;serializers.ValidationError&#xFF0C;
+&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4F20;&#x9012;raise_exception=True&#x53C2;&#x6570;&#x5F00;&#x542F;&#xFF0C;REST framework&#x63A5;&#x6536;&#x5230;&#x6B64;&#x5F02;&#x5E38;&#xFF0C;
+&#x4F1A;&#x5411;&#x524D;&#x7AEF;&#x8FD4;&#x56DE;HTTP 400 Bad Request&#x54CD;&#x5E94;&#x3002;
+</code></pre><h4 id="&#x8865;&#x5145;&#x5B9A;&#x4E49;&#x9A8C;&#x8BC1;&#x884C;&#x4E3A;">&#x8865;&#x5145;&#x5B9A;&#x4E49;&#x9A8C;&#x8BC1;&#x884C;&#x4E3A;</h4>
+<p>1&#xFF09;validate_&#x5B57;&#x6BB5;&#x540D;</p>
+<pre><code>class BookSerializer(serializers.Serializer):
+    &quot;&quot;&quot;&#x56FE;&#x4E66;&#x6570;&#x636E;&#x5E8F;&#x5217;&#x5316;&#x5668;&quot;&quot;&quot;
+    ...
+    def validate_title(self, value):
+        if &apos;django&apos; not in value.lower():
+            raise serializers.ValidationError(&quot;&#x56FE;&#x4E66;&#x4E0D;&#x662F;&#x5173;&#x4E8E;Django&#x7684;&quot;)
+        return value
+
+&#x9A8C;&#x8BC1;&#xFF1A;
+from book.serializers import BookSerializer
+data = {&apos;title&apos;: &apos;python&apos;}
+serializer = BookSerializer(data=data)
+serializer.is_valid()  # False   
+serializer.errors
+#  {&apos;title&apos;: [ErrorDetail(string=&apos;&#x56FE;&#x4E66;&#x4E0D;&#x662F;&#x5173;&#x4E8E;Django&#x7684;&apos;, code=&apos;invalid&apos;)]}
+</code></pre><p>2) &#x591A;&#x4E2A;&#x5B57;&#x6BB5;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1; &#x5B9A;&#x4E49;validate&#x65B9;&#x6CD5;</p>
+<pre><code>class BookSerializer(serializers.Serializer):
+    &quot;&quot;&quot;&#x56FE;&#x4E66;&#x5E8F;&#x5217;&#x5316;&#x5668;&quot;&quot;&quot;
+    ...
+
+    def validate(self, attrs):
+        read = attrs[&apos;read&apos;]
+        comment = attrs[&apos;comment&apos;]
+        if read &lt; comment:
+            raise serializers.ValidationError(&apos;&#x9605;&#x8BFB;&#x91CF;&#x5C0F;&#x4E8E;&#x8BC4;&#x8BBA;&#x91CF;&#xFF0C;&#x4E0D;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&apos;)
+        return attrs
+
+
+from book.serializers import BookSerializer
+data = {&apos;title&apos;: &apos;about django&apos;, &apos;read&apos;: 10, &apos;comment&apos;: 20}
+s = BookSerializer(data=data)
+s.is_valid()  # False
+s.errors
+#  {&apos;non_field_errors&apos;: [ErrorDetail(string=&apos;&#x9605;&#x8BFB;&#x91CF;&#x5C0F;&#x4E8E;&#x8BC4;&#x8BBA;&#x91CF;&apos;, code=&apos;invalid&apos;)]}
+</code></pre><p>3) validators  &#x5B57;&#x6BB5;&#x4E2D;&#x6DFB;&#x52A0;&#x8BE5;&#x8865;&#x5145;&#x9A8C;&#x8BC1;&#x884C;&#x4E3A;&#x9009;&#x9879;&#x53C2;&#x6570;</p>
+<pre><code>def about_django(value):
+    if &apos;django&apos; not in value.lower():
+        raise serializers.ValidationError(&quot;&#x56FE;&#x4E66;&#x4E0D;&#x662F;&#x5173;&#x4E8E;Django&#x7684;&quot;)
+
+class BookSerializer(serializers.Serializer):
+    &quot;&quot;&quot;&#x56FE;&#x4E66;&#x5E8F;&#x5217;&#x5316;&#x5668;&quot;&quot;&quot;
+    id = serializers.IntegerField(label=&apos;ID&apos;, read_only=True)
+     #&#x9A8C;&#x8BC1;&#x5B57;&#x6BB5;title
+    title = serializers.CharField(label=&apos;&#x540D;&#x79F0;&apos;, max_length=20, validators=[about_django])         pub_date = serializers.DateField(label=&apos;&#x53D1;&#x5E03;&#x65E5;&#x671F;&apos;, required=False)
+    read = serializers.IntegerField(label=&apos;&#x9605;&#x8BFB;&#x91CF;&apos;, required=False)
+    comment = serializers.IntegerField(label=&apos;&#x8BC4;&#x8BBA;&#x91CF;&apos;, required=False)
+
+
+from book.serializers import BookSerializer
+data = {&apos;title&apos;: &apos;python&apos;}
+serializer = BookSerializer(data=data)
+serializer.is_valid()  # False   
+serializer.errors
+#  {&apos;title&apos;: [ErrorDetail(string=&apos;&#x56FE;&#x4E66;&#x4E0D;&#x662F;&#x5173;&#x4E8E;Django&#x7684;&apos;, code=&apos;invalid&apos;)]}
+</code></pre><h4 id="&#x4FDD;&#x5B58;&#x66F4;&#x65B0;&#x6570;&#x636E;">&#x4FDD;&#x5B58;/&#x66F4;&#x65B0;&#x6570;&#x636E;</h4>
+<h5 id="&#x4EE5;&#x5BC6;&#x7801;&#x4FDD;&#x5B58;&#x548C;&#x66F4;&#x65B0;&#x4E3A;&#x4F8B;">&#x4EE5;&#x5BC6;&#x7801;&#x4FDD;&#x5B58;&#x548C;&#x66F4;&#x65B0;&#x4E3A;&#x4F8B;</h5>
+<pre><code>#Model.py
+class UserModel(models.Model):
+    password = models.CharField(max_length=255, null=True)
+   salt = models.CharField(max_length=255, default=&apos;123456&apos;)
+
+#serializers.py &#x5E8F;&#x5217;&#x5316;
+
+&#x5982;&#x679C;&#x521B;&#x5EFA;&#x5E8F;&#x5217;&#x5316;&#x5668;&#x5BF9;&#x8C61;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6CA1;&#x6709;&#x4F20;&#x9012;instance&#x5B9E;&#x4F8B;&#xFF0C;&#x5219;&#x8C03;&#x7528;save()&#x65B9;&#x6CD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;create()&#x88AB;&#x8C03;&#x7528;&#xFF0C;&#x76F8;&#x53CD;&#xFF0C;
+&#x5982;&#x679C;&#x4F20;&#x9012;&#x4E86;instance&#x5B9E;&#x4F8B;&#xFF0C;&#x5219;&#x8C03;&#x7528;save()&#x65B9;&#x6CD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;update()&#x88AB;&#x8C03;&#x7528;
+
+class UserSerializer2(serializers.ModelSerializer):
+    class Meta:
+        model = UserModer
+        exclude = (&apos;password&apos;, &#xFF09;
+    #&#x521B;&#x5EFA;&#x5BC6;&#x7801;  validated_data&#x662F;&#x53CD;&#x5E8F;&#x5217;&#x5316;&#x9A8C;&#x8BC1;&#x6210;&#x529F;&#x540E;&#x83B7;&#x5F97;&#x7684;&#x6570;&#x636E;
+    def create(self, validated_data):
+        model = super().create(validated_data)
+        model.salt = uuid.uuid4().hex
+        password = &apos;12345&apos; + model.salt
+        import hashlib
+        md5 = hashlib.md5()
+        md5.update(password.encode(&apos;utf-8&apos;))
+        model.password = md5.hexdigest()
+        model.save()
+        return model
+    # &#x66F4;&#x65B0;&#x5BC6;&#x7801;
+    def update(self, instance, validated_data):
+        model = super().update(instance, validated_data)
+        if &quot;password&quot; in validated_data:
+            password = validated_data[&apos;password&apos;] + model.salt
+            import hashlib
+            md5 = hashlib.md5()
+            md5.update(password.encode(&apos;utf-8&apos;))
+            model.password = md5.hexdigest()
+            model.save()
+              return model
+</code></pre><h3 id="apiview&#x57FA;&#x4E8E;&#x65B9;&#x6CD5;&#x7684;&#x89C6;&#x56FE;">api_view(&#x57FA;&#x4E8E;&#x65B9;&#x6CD5;&#x7684;&#x89C6;&#x56FE;)</h3>
+<p>api_view &#x662F;&#x4E00;&#x4E2A;&#x88C5;&#x9970;&#x5668;&#xFF0C;&#x7528; http_method_names &#x6765;&#x8BBE;&#x7F6E;&#x89C6;&#x56FE;&#x5141;&#x8BB8;&#x54CD;&#x5E94;&#x7684; HTTP &#x65B9;&#x6CD5;&#x5217;&#x8868;&#xFF0C;&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;</p>
+<p>&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x89C6;&#x56FE;&#xFF0C;&#x624B;&#x52A8;&#x8FD4;&#x56DE;&#x4E00;&#x4E9B;&#x6570;&#x636E;&#x3002;</p>
+<pre><code>@api_view([&apos;GET&apos;, &apos;POST&apos;])  #&#x5982;&#x679C;&#x672A;&#x5236;&#x5B9A; &#x9ED8;&#x8BA4;&#x662F;GET &#x5176;&#x5B83;&#x4EE5;&#x201C;405 Method Not Allowed &#x201D;&#x8FDB;&#x884C;&#x54CD;&#x5E94;
+def hello_world(request):
+    if request.method == &apos;POST&apos;:
+        return Response({&quot;message&quot;: &quot;Got some data!&quot;, &quot;data&quot;: request.data})
+    return Response({&quot;message&quot;: &quot;Hello, world!&quot;})
+</code></pre><h4 id="apiview&#x88C5;&#x9970;&#x5668;">api_view&#x88C5;&#x9970;&#x5668;</h4>
+<h5 id="&#x5B9E;&#x4F8B;">&#x5B9E;&#x4F8B;</h5>
+<pre><code># views.py
+
+@api_view(&quot;GET&quot;, &quot;POST&quot; ) 
+def do_user(request, id=None): #&#x53EF;&#x6307;&#x5B9A;format:json(&#x524D;&#x7AEF;&#x663E;&#x793A;&#x65B9;&#x5F0F;&#x4E3A;json)
+    assert isinstance(request, Request)
+    # request.query_params == request.GET  urls&#x4E2D;&#x7684;&#x6570;&#x636E;
+    # request.data == request.POST   &#x62A5;&#x6587;&#x4E2D;&#x7684;&#x6570;&#x636E;
+    if not id:
+        if request.method == &quot;POST&quot;:   
+            serializer = UserSerializer(data=request.POST)   
+            if not serializer.is_valid():  #&#x5E8F;&#x5217;&#x5316;&#x9A8C;&#x8BC1; 
+                return JsonResponse(serializer.errors)  
+            serializer.save(force_insert=True) #&#x4FDD;&#x5B58; 
+            #return JsonResponse(serializer.validated_data)
+            #&#x4F7F;&#x7528;rest_framework &#x7684;Response 
+            return Response(serializer.validated_data)  #&#x54CD;&#x5E94;&#x6570;&#x636E;  
+
+# app/urls
+path(&apos;api/user&apos;, views.do_user, {&apos;format&apos;:&apos;json&apos;}) #&#x4E0A;&#x8FF0;&#x6307;&#x5B9A;format&#x540E;&#x9700;&#x8981;&#x5236;&#x5B9A;
+</code></pre><h5 id="&#x7C7B;&#x89C6;&#x56FE;apiview&#x4F8B;">&#x7C7B;&#x89C6;&#x56FE;(APIView&#x4F8B;)</h5>
+<pre><code>#views.py
+
+class UserView(APIView):
+    def get(self, request, id=None, *args, **kwargs):
+    # request.query_params == request.GET  urls&#x4E2D;&#x7684;&#x6570;&#x636E;
+     # request.data == request.POST   &#x62A5;&#x6587;&#x4E2D;&#x7684;&#x6570;&#x636E;
+        if id:
+            user = UserModer.objects.get(pk=id)
+            user_info = UserSerializer2(instance=user)
+            return Response(user_info.data)
+        else:
+            users = UserModer.objects.all()
+            users_info = UserSerializer2(instance=users, many=True)
+            return Response(users_info.data)
+
+    def post(self, request, *args, **kwargs):
+        serializer = UserSerializer2(data=request.data)
+        if not serializer.is_valid():
+            return JsonResponse(serializer.errors)
+        serializer.save()
+        return Response(serializer.validated_data)
+    def put(self, request, id=None, *args, **kwargs):
+          if id:
+                  model = UserModel.object.get(pk=id)
+          else:
+                  model = UserModel.object.get(pk=request.data[&apos;id&apos;])
+          serializer = UserSerializer2(data=request.data)
+          if not serializer.is_valid():
+                print(serializer.errors)
+            return Response(status=401)
+        serializer.save()
+        return Response(serializer.data)
+
+
+# app/urls.py
+
+path(&apos;api/user/&apos;, views.UserView.as_view())
+</code></pre><h3 id="mixins">mixins</h3>
+<pre><code>class UserView(mixins.ListModelMixin,
+               mixins.CreateModelMixin,
+               mixins.RetrieveModelMixin,
+               mixins.UpdateModelMixin,
+               mixins.DestroyModelMixin,
+               generics.GenericAPIView):
+
+    queryset = UserModer.objects.all()
+    serializer_class = UserSerializer2
+
+    def get(self, request, pk=None, *args, **kwargs):
+        if not pk:
+            return self.list(request, *args, **kwargs)
+        else:
+            return self.retrieve(request, pk, *args, **kwargs)
+
+    def post(self, request, *args, **kwargs):
+        return self.create(request, *args, **kwargs)
+
+    def put(self, request, *args, **kwargs):
+        return self.update(request, *args, **kwargs)
+
+    def delete(self, request, *args, **kwargs):
+        return self.destroy(request, *args, **kwargs)
+</code></pre><h3 id="modelviewset">ModelViewSet</h3>
+<p>&#x8BE6;&#x7EC6;&#xFF1A;</p>
+<pre><code>#views.py:
+
+class UserView(ModelViewSet):
+    queryset = UserModer.objects.all()
+    serializer_class = UserSerializer2
+
+
+list_view = UserView.as_view({
+        &quot;get&quot;: &quot;list&quot;,
+        &quot;post&quot;: &apos;create&apos;})
+
+detail_view = UserView.as_view(
+    {
+        &quot;get&quot;: &quot;retrieve&quot;,
+        &quot;put&quot;: &quot;update&quot;,
+        &quot;delete&quot;: &quot;destroy&quot;
+    }
+)
+
+    # path(&apos;api/user/&apos;, views.list_view),
+    # path(&apos;api/user/&lt;int:pk&gt;&apos;, views.detail_view),
+</code></pre><p>&#x7B80;&#x5316;1&#xFF1A;</p>
+<pre><code>#views.py
+ class LessonView(ModelViewSet):
+     queryset = LessonModel.objects.all()
+     serializer_class = LessonSerializer
+
+#app/urls.py
+from rest_framework.routers import DefaultRouter
+router = DefaultRouter()
+router.register(&apos;user&apos;, views.UserView)
+router.register(&apos;lesson&apos;, views.LessonView)
+
+path(&apos;api/&apos;, include(router.urls)),
+</code></pre><h3 id="&#x9A8C;&#x8BC1;">&#x9A8C;&#x8BC1;</h3>
+<p>&#x4E3B;&#x8981;&#x662F;&#x5BF9;&#x662F;&#x5426;&#x7B26;&#x5408;&#x67E5;&#x770B;&#x6761;&#x4EF6;&#xFF0C;&#x7B26;&#x5408;&#x5219;&#x8FD4;&#x56DE;&#x76F8;&#x5173;&#x54CD;&#x5E94;&#x6570;&#x636E;&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;&#x6743;&#x9650;&#x4E0D;&#x8DB3;</p>
+<pre><code>from rest_framework.permissions import IsAuthenticated, BasePermission
+
+class TokenPermissionClass(BasePermission): #&#x9A8C;&#x8BC1;&#x65B9;&#x6CD5;&#x91CD;&#x5199;
+    def has_object_permission(self, request, view, obj):
+        pass
+    def has_permission(self, request, view):
+        if isinstance(view, UserView):
+            return False
+        return True
+
+class LessonView(ModelViewSet):
+    permission_classes = [TokenPermissionClass]  #&#x8C03;&#x7528;&#x4E0A;&#x9762;&#x7684;&#x9A8C;&#x8BC1;&#x65B9;&#x5F0F;
+    queryset = LessonModel.objects.all()
+    serializer_class = LessonSerializer
+</code></pre><p>&#x81EA;&#x5B9A;&#x4E49;&#x9A8C;&#x8BC1;</p>
+<p>1.&#x65B0;&#x5EFA;&#x9A8C;&#x8BC1;&#x6587;&#x4EF6; authentications.py</p>
+<pre><code>#authentications.py
+
+from rest_framework.authentication import BaseAuthentication, BasicAuthentication
+from foo.models import UserModer
+
+class UserPasswordAuthentication(BaseAuthentication):
+    def authenticate(self, request):
+        user = request.query_params.get(&apos;username&apos;)
+        password = request.query_params.get(&apos;password&apos;)
+        try:
+            user = UserModer.objects.get(username=user)
+        except:
+            return None, None
+        new_password = password + user.salt
+        import hashlib
+        md5 = hashlib.md5()
+        md5.update(new_password.encode(&apos;utf-8&apos;))
+        if user.password == md5.hexdigest():
+            return user, None
+        else:
+            return None, None
+
+#views.py
+
+class UserView(ModelViewSet):  #&#x82E5;&#x6709;&#x6743;&#x9650;&#x5373;&#x9A8C;&#x8BC1;&#x901A;&#x8FC7;&#xFF0C;&#x5219;&#x5E8F;&#x5217;&#x5316;
+    permission_classes = [IsAuthenticated]
+    authentication_classes = [UserPasswordAuthentication]
+    queryset = UserModer.objects.all()
+    serializer_class = UserSerializer2
+
+ #models.py
+ class UserModer(models.Model):
+     ...
+
+   @property
+   def is_authenticated(self):  
+   #(IsAuthenticated&#x4E2D;request.user&#x548C;request.user.is_authenticated&#x9700;&#x8981;&#x540C;&#x65F6;&#x6EE1;&#x8DB3; &#x8FD9;&#x91CC;&#x91CD;&#x5199;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;)
+        return True
+</code></pre><h3 id="&#x67E5;&#x8BE2;">&#x67E5;&#x8BE2;</h3>
+<pre><code>#&#x5730;&#x5740;&#x680F;&#x8F93;&#x5165;  &#x5B57;&#x6BB5;&#x540D;=&#x503C; &#x53EF;&#x4EE5;&#x67E5;&#x8BE2;&#x51FA;&#x8BE5;&#x5B57;&#x6BB5;&#x91CC;&#x6240;&#x6709;&#x7B26;&#x5408;&#x7684;&#x503C;&#x7684;&#x6570;&#x636E;
+class UserView(ModelViewSet):  
+    queryset = UserModer.objects.all()
+    serializer_class = UserSerializer2
+
+    def list(self, request, *args, **kwargs):
+        for arg, value in request.query_params.items():
+            self.queryset = self.queryset.filter(**{arg: value})
+
+        return super(UserView, self).list(request, *args, **kwargs)
+</code></pre><h3 id="django-filters">django-filters</h3>
+<pre><code>pip3 install django-filters
+
+import django_filters.rest_framework
+
+
+class UserView(ModelViewSet):
+
+    queryset = UserModer.objects.all()
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend, SearchFilter]
+    serializer_class = UserSerializer2
+    filterset_fields = [&apos;gender&apos;, &apos;salt&apos;]
+
+#http://127.0.0.1:8000/foo/api/user/?gender=1
+
+class LessonView(ModelViewSet):
+    queryset = LessonModel.objects.all()
+    serializer_class = LessonSerializer
+    filter_backends = [SearchFilter]
+    search_fields = [&apos;subject&apos;, &apos;student__username&apos;]
+
+#http://127.0.0.1:8000/foo/api/lesson/?search=a
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="django8.html" class="navigation navigation-prev " aria-label="Previous page: Django 基础">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="django扩展.html" class="navigation navigation-next " aria-label="Next page: get/put/post/delete区别">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Django 序列化","level":"4.1.2","depth":2,"next":{"title":"get/put/post/delete区别","level":"4.1.3","depth":2,"path":"basic/django扩展.md","ref":"basic/django扩展.md","articles":[]},"previous":{"title":"Django 基础","level":"4.1.1","depth":2,"path":"basic/django8.md","ref":"basic/django8.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","advanced-emoji","expandable-chapters","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"gitbookuse"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gitbook tutorial","links":{"gitbook":false,"sharing":{"google":false,"facebook":false,"twitter":false,"all":false}},"gitbook":"*","description":"本书主要是把django所有知识总结，形成一个自己的基础知识库，不可转载"},"file":{"path":"basic/django序列化.md","mtime":"2019-11-05T12:24:26.011Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-11T10:45:07.893Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

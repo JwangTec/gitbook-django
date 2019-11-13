@@ -1,0 +1,23 @@
+{
+  "title": "gitbook tutorial",
+  "description": "本书主要是把django所有知识总结，形成一个自己的基础知识库，不可转载",
+  "structure": {
+    "readme": "README.md"
+  },
+  "links": {
+    "gitbook": false,
+    "sharing": {
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "all": false
+    }
+  },
+
+  "plugins": ["disqus","advanced-emoji","expandable-chapters"],
+  "pluginsConfig": {
+    "disqus": {
+        "shortName": "gitbookuse"
+    }
+  }
+}
